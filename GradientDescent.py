@@ -46,11 +46,3 @@ y_hat=m[iters]*x+b[iters]
 plt.plot(x,y)
 plt.plot(x,y_hat)
 plt.show()
-'''
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-ax.plot_trisurf(m,b,error)
-plt.show()
-'''
-#-grad(C)-> OutputVector-grad(C) iterate.
-#SSE=sum(y-yhat)^2
